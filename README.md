@@ -69,3 +69,8 @@ Step 14: create config_entity.py, this will be reponsible for input to every com
 step 15: craete folder ml and make it __init__.py, this willl contain functions like feature engineering or you making your custom ml model etc, custom graph or accuracy matrixes etc.
 
 step 16: go to mongodb atlas and creat edatabase cluster and then to database option click connect and copy that url and change username and password
+
+step 17: create mongo_db_connection.py file in configuartion folder. which will conatin code to connect you to mongodb.
+
+step 18: craete folder database.py in constant folder which will contain databse name etc.
+
