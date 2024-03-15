@@ -66,4 +66,6 @@ step 13: create artifact_entity.py , ouput to every component.
 
 Step 14: create config_entity.py, this will be reponsible for input to every component.
 
-step 15: craete folder ml and make it __init__.py, this willl contain functions like feature engineering or you making your custom ml model etc, custom graph or accuracy matrixes etc. 3.11
+step 15: craete folder ml and make it __init__.py, this willl contain functions like feature engineering or you making your custom ml model etc, custom graph or accuracy matrixes etc.
+
+step 16: go to mongodb atlas and creat edatabase cluster and then to database option click connect and copy that url and change username and password
