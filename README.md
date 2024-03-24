@@ -74,3 +74,17 @@ step 17: create mongo_db_connection.py file in configuartion folder. which will 
 
 step 18: craete folder database.py in constant folder which will contain databse name etc.
 
+step 19: Write exception code in exception.py , note there are custom exceptions which is used when error raises so it give us error name, error line number , file name in which the error is raised.
+
+Step 20: Write logging code 
+
+step 21: create env_variable.py which will contain info about all the variables like Aws acces key, mogo db url key etc, region aws etc. you can sav eur keys like this is the system for just this opened session export AWS_ACCESS_KEY_ID=123456, if you want permanent then you have to write this in bashrc file.
+
+step 22: craete s3_bucket.py which will contain info regarding tarined model and predict model variable names.
+
+Step 23: create application.py in constant which will contain variables names regading the app port , the app host need for train and predict. so it will take your system current IP .
+
+Step 24: now we will create a subfolder inside constant folder named as training_pipeline which will contain constants only regarding training of model.
+
+step 25: create config folder the project folder outside sensor and inside it craete folder schema.yaml which will contain information regarding the structure
+
